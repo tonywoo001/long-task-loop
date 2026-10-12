@@ -76,6 +76,3 @@ long-task-loop/
     └── operation-discipline.md    # 关键检查报错处置、单点不作全局、证据留痕
 ```
 
-## 来源
-
-本 Skill 的能力提取自 [one-loopfordesign](https://github.com/Juuuulianxxx/one-loopfordesign)（v5.4.0）插件的核心工作流，做了平台无关化适配：去掉 Claude Code 专属机制（hooks、插件子代理、脚本门禁），把飞书通道抽象为「语义操作」，使同一套打法可复用于豆包、WorkBuddy 等任意 AI 助手。
